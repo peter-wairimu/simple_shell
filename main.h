@@ -20,5 +20,6 @@ extern __sighandler_t signal(int __sig, __sighandler_t __handler);
 /* handle built ins */
 int checker(char **cmd, char *buf);
 void prompt(void);
+int handle_builtin(char **command, char *line)
 
 #endif
