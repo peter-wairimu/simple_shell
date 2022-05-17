@@ -15,6 +15,7 @@
 // environment variables
 extern char **environ;
 extern __sighandler_t signal(int __sig, __sighandler_t __handler);
+void exit_cmd(char **command, char *line)
 
 
 /* handle built ins */
