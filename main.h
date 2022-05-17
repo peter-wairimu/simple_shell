@@ -24,5 +24,6 @@ void prompt(void);
 int handle_builtin(char **command, char *line)
 void exit_cmd(char **command, char *line)
 void execution(char *cp, char **cmd)
+char *append_path(char *path, char *command)
 
 #endif
