@@ -22,5 +22,7 @@ void exit_cmd(char **command, char *line)
 int checker(char **cmd, char *buf);
 void prompt(void);
 int handle_builtin(char **command, char *line)
+void exit_cmd(char **command, char *line)
+void execution(char *cp, char **cmd)
 
 #endif
